@@ -2,6 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { MaterialIcons } from '@expo/vector-icons';
+import { AntDesign } from '@expo/vector-icons'; 
 
 export default function HomeScreen() {
   return (
@@ -27,7 +28,7 @@ export default function HomeScreen() {
         </TouchableOpacity>
 
         <TouchableOpacity style={styles.box}>
-          <Ionicons name="calendar-outline" size={50} color="black" />
+         <AntDesign name="linechart" size={50} color="black" />
           <Text style={styles.boxTitle}>Progresso</Text>
         </TouchableOpacity>
 
