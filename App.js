@@ -28,7 +28,7 @@ export default function HomeScreen() {
 
         <TouchableOpacity style={styles.box}>
           <Ionicons name="calendar-outline" size={50} color="black" />
-          <Text style={styles.boxTitle}>Agenda</Text>
+          <Text style={styles.boxTitle}>Progresso</Text>
         </TouchableOpacity>
 
         <TouchableOpacity style={styles.box}>
@@ -45,7 +45,7 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: 'white',
   },
   
   header: {
@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     paddingVertical: 10,
     borderBottomWidth: 1,
-    borderBottomColor: '#ccc',
+    borderBottomColor: 'grey',
     marginTop: 20,
   },
   
@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
   box: {
     width: '45%',
     height: 150,
-    backgroundColor: '#f0f0f0',
+    backgroundColor: 'light grey',
     borderRadius: 10,
     justifyContent: 'center',
     alignItems: 'center',
