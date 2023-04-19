@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     paddingVertical: 10,
     borderBottomWidth: 1,
-    borderBottomColor: 'grey',
+    borderBottomColor: 'light grey',
     marginTop: 20,
   },
   
@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
   box: {
     width: '45%',
     height: 150,
-    backgroundColor: 'light grey',
+    backgroundColor: 'grey',
     borderRadius: 10,
     justifyContent: 'center',
     alignItems: 'center',
